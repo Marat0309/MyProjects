@@ -1,0 +1,110 @@
+body {
+	background-image: url(../images/guest_house.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+  	background-size: 100% auto;
+  	padding-bottom: 56.25%;
+	font-family: Montserrat, sans-serif;
+	margin: 0px;
+}
+
+
+
+header {
+
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: #52503B;
+	display: flex;
+	flex-flow: row nowrap;
+	z-index: 10;
+}
+
+#logo img{
+	
+	width: 128px;
+	height: 45px;
+	margin: 10% 0px 10% 90%;
+}
+	
+	
+
+
+.menu{
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font-size: 14px;
+	transform: translate(-50%, -50%);
+}
+.menu li {
+
+	color: #FFFFFF;
+	display: inline;
+	margin: 0px 24px;
+}
+.btn {
+	border-radius: 6px;
+	color: #52503B;
+	text-align: center;
+	padding: 0.8% 2%;
+	background-color: #FFFFFF;
+	margin: auto 8% auto auto;
+
+}
+
+.block {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	position: absolute;
+	left: calc(50% - 600px);
+	top: 50%;
+	width: 1200px;
+
+}
+
+#logo2 img {
+
+	width: 256px;
+	height: 90px;
+}
+
+h3 {
+	line-height: 53px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 48px;
+}
+
+h5 {
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 14px;
+}
+
+.scroll {
+
+	position: absolute;
+	left: calc(50% - 60px/2);
+	bottom: -35%;
+	width: 33.75px;
+	height: 52.5px;
+	border: 2px solid #FFFFFF;
+	border-radius: 30px;
+}
+
+.l {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	width: 0px;
+	height: 10px;
+	border: 1px solid #FFFFFF;
+}
